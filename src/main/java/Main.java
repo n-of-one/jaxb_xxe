@@ -16,7 +16,7 @@ public class Main {
             " <!ENTITY lol \"lol\"><!ENTITY lol1 \"&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;\">]>" +
             "<person><name>&lol1;</name></person>";
 
-    public static String XML_FILE = "<!DOCTYPE lolz [\n" +
+    public static String XML_FILE = "<!DOCTYPE filez [\n" +
             " <!ENTITY secret SYSTEM \"file:secret.txt\">]>" +
             "<person><name>&secret;</name></person>";
 
